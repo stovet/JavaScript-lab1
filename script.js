@@ -16,12 +16,7 @@ for(let i=0; i<lifeEvents.length; i++){
 
 let counter = 0;
 while(true){
-    console.log(`${counter} is less than 5`)
-    counter++;
-
-
 let randomNumber = Math.floor(Math.random() *10) +1;
-console.log(randomNumber)
 
 if(randomNumber !== 5){
     counter++;
